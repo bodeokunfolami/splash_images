@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Images</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    {% block head_extra %}
+    {% endblock head_extra %}
+</head>
+
+<body>
+    {% include "includes/header.html" %}
+
+    {% block content %}
+    {% endblock content %}
+    <!-- Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous"></script>
+    <script src="static/js/main.js"></script>
+    {% block javascript %}
+    {% endblock javascript %}
+
+    {% include 'includes/footer.html' %}
+</body>
+
+</html>

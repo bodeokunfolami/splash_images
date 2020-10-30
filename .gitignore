@@ -1,0 +1,7 @@
+node_modules
+cloudbuild.yaml
+credentials.json
+build.sh
+credentials.json
+.gcloudignore
+yarn.lock

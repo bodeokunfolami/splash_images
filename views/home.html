@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %}
+
+{% block javascript %}
+{% endblock javascript %}
+
+{% block content %}
+<main class="container">
+    {% include 'includes/modal.html'%}
+
+    {% include 'includes/upload_form.html' %}
+
+    <section class="gallary">
+        {% for photo in photos %}
+        <div class="column">
+            <img src="static/assets/{{ photo.thumbnail }}" data-src="static/assets/{{ photo.filename }}" alt="thumbnail"
+                class="img">
+        </div>
+        {% endfor %}
+    </section>
+</main>
+{% endblock content %}
