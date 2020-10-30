@@ -23,8 +23,8 @@ Change the DATABASE_URL in `config/.env/` from `mongodb://db:27017/splash_images
 
 Install all packages
 
-`$ yarn install` or `$ npm install`
+`$ yarn install` 
 
 Run the development server
 
-`$ yarn dev` or `$ npm run dev`
+`$ yarn dev` 
