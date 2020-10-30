@@ -7,7 +7,7 @@ This is a photo gallary web app built with:
 - nunjucks template engine
 - mongodb
 
-### RUN web app with docker 
+### Run web app with docker 
 
 Build the image and run it
 
@@ -15,9 +15,9 @@ Build the image and run it
 $ docker-compose up
 `
 
-view website on http://localhost
+view website on `http://localhost`
 
-### RUN web app without docker 
+### Run web app without docker 
 
 Change the DATABASE_URL in `config/.env/` from `mongodb://db:27017/splash_images` to `mongodb://localhost/splash_images`  
 
