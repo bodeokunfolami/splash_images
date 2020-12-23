@@ -4,4 +4,3 @@ credentials.json
 build.sh
 credentials.json
 .gcloudignore
-yarn.lock
